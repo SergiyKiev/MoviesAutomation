@@ -7,4 +7,10 @@
       <class name="basicscenarios.PostFunctionalityTests"/>
     </classes>
   </test>
+  <test name="Business Requirements coverage">
+    <classes>
+      <class name="requirementscoverage.SPL002Test"/>
+      <class name="requirementscoverage.SPL005Test"/>
+    </classes>
+  </test>
 </suite>
