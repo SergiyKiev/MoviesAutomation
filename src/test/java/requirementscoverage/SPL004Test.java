@@ -64,8 +64,7 @@ public class SPL004Test {
             }
             
             // Call assert if movies count more than 7
-            if (genresCounter > 7)
-                assertTrue(false, "Movies with genre_id sums more than 400: " + genresCounter);
+            assertTrue(genresCounter < 7, "Movies with genre_id sums more than 400: " + genresCounter);
  
         } catch (Exception e) {
             e.printStackTrace();

@@ -66,7 +66,8 @@ public class SPL005Test {
                 }
             }
             
-            assertNotEquals(palindromeCounter, 0, "No palindromes found."); // Case fails if no palindromes found
+            // Call assert if no palindromes found
+            assertNotEquals(palindromeCounter, 0, "No palindromes found."); 
 
         } catch (Exception e) {
             e.printStackTrace();

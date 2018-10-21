@@ -84,7 +84,8 @@ public class SPL002Test {
                     
             }
             
-            assertEquals(notValidPostersCounter, 0, "Not valid or missed poster_path."); // Case fails if path is invalid or missed at all
+            // Call assert if path is invalid or missed at all
+            assertEquals(notValidPostersCounter, 0, "Not valid or missed poster_path.");
 
         } catch (Exception e) {
             e.printStackTrace();
