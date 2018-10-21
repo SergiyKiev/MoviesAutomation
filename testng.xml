@@ -4,7 +4,7 @@
   <test name="Basic tests">
     <classes>
       <class name="basicscenarios.GetFunctionalityTests"/>
-     
+      <class name="basicscenarios.PostFunctionalityTests"/>
     </classes>
   </test>
 </suite>
