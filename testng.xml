@@ -3,7 +3,7 @@
 <suite name="Movies API tests">
   <test name="Basic tests">
     <classes>
-      <class name="basicscenarios.BasicAPITests"/>
+      <class name="basicscenarios.GetFunctionalityTests"/>
      
     </classes>
   </test>
