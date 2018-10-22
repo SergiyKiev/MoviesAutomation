@@ -12,6 +12,7 @@
       <class name="requirementscoverage.SPL002Test"/>
       <class name="requirementscoverage.SPL004Test"/>
       <class name="requirementscoverage.SPL005Test"/>
+      <class name="requirementscoverage.SPL006Test"/>
     </classes>
   </test>
 </suite>
